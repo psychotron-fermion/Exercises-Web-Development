@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* box-sizing: needs explanation */
+}
+
+body {
+  background-color: rgb(178, 220, 220);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+}
+
+.header-nav.container {
+  border: 2px dashed salmon;
+  /* text-align: right; */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav.nav-container {
+  width: 80%;
+  padding: 1rem;
+}
+
+.header-nav.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Square Peg", cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header-nav.logo {
+  /* border: 4px solid black; */
+}
+
+.logo {
+  /* border: 2px dashed salmon; */
+}
+
+.header-nav.pogo {
+  width: 100px;
+}
+
+/* #workfromhome{
+    color: bisque !important;
+} */
+
+#workfromhome {
+  color: rgb(224, 16, 44);
+}
+
+.content-card {
+  border: 2px solid silver;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 50rem;
+}
